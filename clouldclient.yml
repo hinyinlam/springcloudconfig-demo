@@ -1,0 +1,10 @@
+foo: this is default bar from cloudclient.yml
+---
+spring:
+    profiles: cloudprofile
+foo: thisis bar from cloudprofile
+
+---
+spring:
+    profiles: localprofile
+food: thisis bar from localprofile
