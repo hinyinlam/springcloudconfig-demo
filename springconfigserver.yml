@@ -1,0 +1,8 @@
+spring:
+    profiles: configserver
+hinfoo: hinbar
+
+---
+spring:
+   profiles: configserver2
+hinfoo: hinbar2
