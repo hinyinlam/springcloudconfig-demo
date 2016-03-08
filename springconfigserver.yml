@@ -1,6 +1,10 @@
+hinfoo: hinbar
 spring:
     profiles: configserver
-hinfoo: hinbar
+    server:
+        prefix: /hinconfig
+            git:
+                uri: https://github.com/hinyinlam/springcloudconfig-demo
 
 ---
 spring:
