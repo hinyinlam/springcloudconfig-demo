@@ -2,7 +2,7 @@ foo: this is default bar from cloudclient.yml
 ---
 spring:
     profiles: cloudprofile
-foo: thisis bar cloudiprofile after refreshed 1:56am
+foo: thisis bar cloudiprofile after refreshed 2:03am
 
 ---
 spring:
