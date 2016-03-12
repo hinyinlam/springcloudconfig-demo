@@ -2,9 +2,9 @@ foo: this is default bar from cloudclient.yml
 ---
 spring:
     profiles: cloudprofile
-foo: thisis bar from cloudprofile
+foo: thisis bar cloudiprofile after refreshed 1:56am
 
 ---
 spring:
     profiles: localprofile
-food: thisis bar from localprofile
+food: this is foobar from localprofile
